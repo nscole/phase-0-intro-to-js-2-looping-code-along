@@ -5,3 +5,10 @@ function writeCards(names, event) {
   }
   return messages;
 }
+
+function countDown(positiveNumber) {
+  while (positiveNumber >= 0){
+    console.log(positiveNumber);
+    positiveNumber--;
+  };
+};
